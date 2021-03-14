@@ -178,9 +178,13 @@ h1 {
 .location-wrapper {
     display: flex;
     align-items: center;
+    margin-right: 20px;
 }
 .location {
     font-weight: 100;
+    display: flex;
+    line-height: 26px;
+    padding: 6px 10px;
     img {
         max-width: 26px;
     }
