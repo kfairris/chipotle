@@ -175,6 +175,13 @@ h1 {
 .rounded {
     border-radius: 1.5em;
 }
-.location img {
-    max-width: 20px;
+.location-wrapper {
+    display: flex;
+    align-items: center;
+}
+.location {
+    font-weight: 100;
+    img {
+        max-width: 26px;
+    }
 }
