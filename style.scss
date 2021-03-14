@@ -131,17 +131,40 @@ h1 {
     margin: auto;
     display: flex;
     flex-flow: row wrap;
-    flex: 0 1 33%;
 }
 .menu--item {
     text-align: center;
-    width: 325px;
+    flex: 1 1 33%;
+    cursor: pointer;
+    margin: 20px 0;
+    // border: solid 1px red;
+    h2 {
+        font-size: 2rem;
+        color: var(--color-secondary);
+    }
 }
 .menu--img {
-    width: 300px;
+    height: 195px;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+        transform: scale(1.07);
+    }
 }
 .menu--order {
     color: var(--color-gold);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+    span {
+        text-transform: uppercase;
+    }
+    &:hover {
+        visibility: visible;
+        transform: scale(1.07);
+    }
 }
 
 /*

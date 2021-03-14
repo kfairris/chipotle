@@ -8,9 +8,9 @@ I love Chipotle!  So when I needed a project to start building portfolio website
 
 ## How It's Made
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+I'm using semantic HTML here with a header and nav.
 
 ## Optimizations
 
